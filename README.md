@@ -25,6 +25,7 @@ Group-Based Success Rates: Visualized success rates of key terrorist groups like
 To provide clear, actionable insights into global terrorism patterns.
 To utilize Power BI for advanced analytics, showcasing data storytelling proficiency.
 To empower policymakers, researchers, and global security experts with data-driven insights.
+
 💡 Skills Utilized:
 
 Data Cleaning: Processed and refined raw datasets for analysis.
