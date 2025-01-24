@@ -7,7 +7,8 @@ The Global Terrorism Analysis Dashboard provides a comprehensive overview of ter
 
 🔍 Key Insights:
 
-- *Taliban – Most Deadly Group: The dashboard identifies the Taliban as the group responsible for the highest number of successful terrorist attacks, highlighting their significant role in global terrorism.
+- Taliban – Most Deadly Group: The dashboard identifies the Taliban as the group responsible for the highest number of successful terrorist attacks, highlighting their significant role 
+  in global terrorism.
 
 - **96.77K Total Targets: There have been over 96,770 total targets of terrorist attacks, indicating the widespread and far-reaching impact of terrorism across the globe**.
 
