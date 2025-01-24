@@ -7,7 +7,7 @@ The Global Terrorism Analysis Dashboard provides a comprehensive overview of ter
 
 🔍 Key Insights:
 
-- **Taliban – Most Deadly Group: The dashboard identifies the Taliban as the group responsible for the highest number of successful terrorist attacks, highlighting their significant role in global terrorism**.
+- **Taliban – Most Deadly Group: The dashboard identifies the Taliban as the group responsible for the highest number of successful terrorist attacks, highlighting their significant role in global terrorism.
 
 - **96.77K Total Targets: There have been over 96,770 total targets of terrorist attacks, indicating the widespread and far-reaching impact of terrorism across the globe**.
 
@@ -19,13 +19,15 @@ Success-Rate by Attack Types:
 
 - **The attack types predominantly include Bombings/Explosions (52.27%), Armed Assaults (24.36%), and Hostage Taking (Kidnapping) (6.99%)**.
 
-- **Bombings and armed assaults have been notably more successful compared to other methods, suggesting that prevention efforts should focus more on mitigating these high-impact attack types through better intelligence and security measures**.
+- **Bombings and armed assaults have been notably more successful compared to other methods, suggesting that prevention efforts should focus more on mitigating these high-impact attack 
+    types through better intelligence and security measures**.
 
 Success-Rate by Target Types:
 
 - **Private Citizens & Property (26.67%) and Military (18.19%) are the most targeted groups, followed by Government Entities (11.89%) and Businesses (11.45%)**.
 
-- **The targeting of private citizens is concerning as it reflects the high risk of collateral damage in terrorist activities. Governments and military units should bolster efforts to protect civilians through enhanced intelligence-sharing and crisis response systems**.
+- **The targeting of private citizens is concerning as it reflects the high risk of collateral damage in terrorist activities. Governments and military units should bolster efforts to 
+    protect civilians through enhanced intelligence-sharing and crisis response systems**.
 
 Success-Rate by Weapon Types:
 
@@ -35,7 +37,8 @@ Success-Rate by Weapon Types:
 
 Geographical Insights (Success-Rate by Country & Region):
 
-- **South Asia emerges as the region with the highest frequency of attacks, with regions like Middle East & North Africa, Sub-Saharan Africa, and Latin America also showing high rates of terrorist activity**.
+- **South Asia emerges as the region with the highest frequency of attacks, with regions like Middle East & North Africa, Sub-Saharan Africa, and Latin America also showing high rates 
+    of terrorist activity**.
 
 - **The Success-Rate by Country map highlights key hotspots globally, with many attacks clustered in volatile regions. South Asia, particularly Afghanistan and Pakistan, shows a significant concentration of attacks, which correlates with the presence of groups like the Taliban**.
 
