@@ -3,8 +3,6 @@
 
 ![global](https://github.com/user-attachments/assets/f98b090d-ba6b-4b64-8f1b-4e7d1d401dc2)
 
-# 🌍 Global Terrorism Analysis Dashboard
-
 ## 📘 About the Project
 
 Terrorism remains a persistent global threat, with complex patterns and varying impacts across regions. This project analyzes historical terrorism data from 1970 to 2017 to uncover patterns in attack types, regional distribution, terrorist groups, and weapon usage. The interactive Power BI dashboard transforms raw data into meaningful insights that support informed decision-making by security professionals, policymakers, and researchers.
