@@ -3,13 +3,13 @@
 
 ![global](https://github.com/user-attachments/assets/f98b090d-ba6b-4b64-8f1b-4e7d1d401dc2)
 
-## 📘 About the Project
+##  About the Project
 
 Terrorism remains a persistent global threat, with complex patterns and varying impacts across regions. This project analyzes historical terrorism data from 1970 to 2017 to uncover patterns in attack types, regional distribution, terrorist groups, and weapon usage. The interactive Power BI dashboard transforms raw data into meaningful insights that support informed decision-making by security professionals, policymakers, and researchers.
 
 ---
 
-## ❓ Problem Statement
+##  Problem Statement
 
 Terrorism intelligence is often trapped in large, unstructured datasets, making it difficult to detect trends, identify high-risk regions, and allocate resources effectively. This project aims to address the following challenges:
 
@@ -20,7 +20,7 @@ Terrorism intelligence is often trapped in large, unstructured datasets, making 
 
 ---
 
-## ✅ Problems Solved
+##  Problems Solved
 
 This project answers several critical business and security-related questions using SQL and Power BI:
 
@@ -33,7 +33,7 @@ This project answers several critical business and security-related questions us
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 1. **Most Deadly Group**: The Taliban is identified as the most deadly group based on the number and success rate of attacks.
 2. **Peak Year**: The year 2017 recorded the highest number of global terrorist attacks.
@@ -45,7 +45,7 @@ This project answers several critical business and security-related questions us
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 - **Strengthen Intelligence in South Asia**: Allocate more resources for monitoring and prevention in South Asia, the most affected region.
 - **Enhance Explosive Detection**: Given the high usage of explosives, invest in advanced explosive detection systems at vulnerable sites.
@@ -55,7 +55,7 @@ This project answers several critical business and security-related questions us
 
 ---
 
-## 💥 Impact of the Project
+##  Impact of the Project
 
 This analysis can be used to:
 
@@ -67,15 +67,15 @@ This analysis can be used to:
 
 ---
 
-## 🛠️ Solution Overview
+##  Solution Overview
 
-### 🔧 Tools Used
+###  Tools Used
 
 - **SQL Server**: For data cleaning, transformation, and querying
 - **Power BI**: For creating interactive and insightful visual dashboards
 - **Excel**: For initial data review and formatting
 
-### 🔎 SQL Logic Applied
+###  SQL Logic Applied
 
 - **Aggregations**: Count of attacks, average success rates, and total targets
 - **Group By**: Region, year, weapon type, attack type, terrorist group
@@ -85,7 +85,7 @@ This analysis can be used to:
 
 ---
 
-## 🧩 Challenges Faced
+##  Challenges Faced
 
 - **Data Imbalance**: High attack frequency in certain countries skewed results; addressed through normalization techniques.
 - **Categorical Inconsistency**: Inconsistent naming for weapon types and attack types; solved by standardizing category labels.
@@ -94,7 +94,7 @@ This analysis can be used to:
 
 ---
 
-## 🔚 Conclusion
+##  Conclusion
 
 The **Global Terrorism Analysis Dashboard** serves as a strategic tool for understanding four decades of terrorism patterns. By combining robust SQL querying with dynamic Power BI visualizations, this project transforms static historical data into actionable intelligence. It not only provides a snapshot of global terrorism but also supports smarter, data-driven decisions in the fight against violent extremism.
 
