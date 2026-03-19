@@ -130,4 +130,33 @@ This analysis can directly support:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
+
+```
+ Global-Terrorism-Analysis-Dashboard-Report
+├── 📄 GlobalTerrorism_Analysis.sql        — Full SQL scripts and queries
+├── 📊 GlobalTerrorism_Dashboard.pbix      — Interactive Power BI dashboard
+├── 🖼️  Global terrorism Analysis Dashboard.jpg — Dashboard preview
+├── 🖼️  global.jpg                          — Project cover image
+└── 📄 README.md                           — Project documentation
+```
+
+---
+
+##  Dashboard Preview
+
+![Global Terrorism Analysis Dashboard](Global%20terrorism%20Analysis%20Dashboard.jpg)
+
+---
+
+## 👤 About
+
+**Khurram Naveed** — Data Analyst specializing in SQL, Power BI, and business intelligence.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/khurramnaveed3233)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/Khurramnaveed3233)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:khurramnaveed4545@gmail.com)
+
+---
+
+>  *This project demonstrates how advanced SQL querying combined with Power BI storytelling can transform 47 years of unstructured historical data into strategic intelligence — directly applicable to counter-terrorism policy, security planning, and academic research.*
