@@ -143,12 +143,6 @@ This analysis can directly support:
 
 ---
 
-##  Dashboard Preview
-
-![Global Terrorism Analysis Dashboard](Global%20terrorism%20Analysis%20Dashboard.jpg)
-
----
-
 ## 👤 About
 
 **Khurram Naveed** — Data Analyst specializing in SQL, Power BI, and business intelligence.
