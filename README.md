@@ -3,102 +3,131 @@
 
 ![global](https://github.com/user-attachments/assets/f98b090d-ba6b-4b64-8f1b-4e7d1d401dc2)
 
-##  About the Project
+#  Global Terrorism Analysis Dashboard (1970–2017)
 
-Terrorism remains a persistent global threat, with complex patterns and varying impacts across regions. This project analyzes historical terrorism data from 1970 to 2017 to uncover patterns in attack types, regional distribution, terrorist groups, and weapon usage. The interactive Power BI dashboard transforms raw data into meaningful insights that support informed decision-making by security professionals, policymakers, and researchers.
-
----
-
-##  Problem Statement
-
-Terrorism intelligence is often trapped in large, unstructured datasets, making it difficult to detect trends, identify high-risk regions, and allocate resources effectively. This project aims to address the following challenges:
-
-- Lack of visibility into regional terrorism hotspots
-- Limited understanding of successful attack methods and target types
-- Difficulty identifying the most lethal terrorist groups
-- Inadequate year-over-year trend tracking
+> **Role:** Data Analyst | **Tools:** SQL Server · Power BI · DAX · Excel | **Domain:** Security Analytics · Policy Research
 
 ---
 
-##  Problems Solved
+##  Project Overview
 
-This project answers several critical business and security-related questions using SQL and Power BI:
-
-- Which terrorist groups are most active and deadly?
-- What are the most frequently used weapons and methods of attack?
-- Which regions and countries have the highest number and success rate of attacks?
-- How have terrorist attacks evolved over the years?
-- What types of targets are most commonly attacked?
-- Which years experienced the highest number of terrorist incidents?
+Analyzed **96,000+ terrorism records spanning 47 years (1970–2017)** to uncover patterns in attack types, regional distribution, terrorist group activity, and weapon usage. The interactive Power BI dashboard transforms large, unstructured historical data into **actionable intelligence** — supporting informed decision-making by security professionals, policymakers, and researchers.
 
 ---
 
-##  Key Insights
+##  Business Problem
 
-1. **Most Deadly Group**: The Taliban is identified as the most deadly group based on the number and success rate of attacks.
-2. **Peak Year**: The year 2017 recorded the highest number of global terrorist attacks.
-3. **Weapon Preference**: Explosives are the most commonly used weapon, indicating a preference for high-impact attacks.
-4. **Attack Methods**: Bombings and armed assaults have the highest success rates.
-5. **Target Types**: Civilians and government entities are the most targeted.
-6. **Regional Impact**: South Asia experiences the most frequent and successful attacks, followed by the Middle East & North Africa.
-7. **Group-Based Success**: Besides the Taliban, ISIS and Boko Haram also show high success rates in attacks.
+Terrorism intelligence is often trapped in large, unstructured datasets making it difficult to:
 
----
-
-##  Recommendations
-
-- **Strengthen Intelligence in South Asia**: Allocate more resources for monitoring and prevention in South Asia, the most affected region.
-- **Enhance Explosive Detection**: Given the high usage of explosives, invest in advanced explosive detection systems at vulnerable sites.
-- **Civic and Government Protection**: Reinforce security around frequently targeted groups such as civilians, police, and government officials.
-- **Historical Data Modeling**: Use past trends (especially post-2010) to predict potential hotspots and develop proactive measures.
-- **Terrorist Group Profiling**: Develop detailed profiles of high-activity groups to support targeted counter-terrorism strategies.
+- Detect **regional hotspots** and high-risk zones
+- Identify the **most lethal terrorist groups** and their methods
+- Track **year-over-year attack trends** and peak periods
+- Understand which **target types** face the greatest threat
+- **Allocate security resources** effectively based on evidence
 
 ---
 
-##  Impact of the Project
+## Key KPIs & Scale
 
-This analysis can be used to:
-
-- Support **data-driven counterterrorism strategies** at national and international levels.
-- Aid in **policy formulation** for resource allocation in high-risk regions.
-- Enable **predictive modeling** to anticipate future threats.
-- Help **journalists, researchers, and analysts** understand global terrorism dynamics.
-- Improve **public safety** measures in vulnerable target categories (e.g., civilians, transportation).
-
----
-
-##  Solution Overview
-
-###  Tools Used
-
-- **SQL Server**: For data cleaning, transformation, and querying
-- **Power BI**: For creating interactive and insightful visual dashboards
-- **Excel**: For initial data review and formatting
-
-###  SQL Logic Applied
-
-- **Aggregations**: Count of attacks, average success rates, and total targets
-- **Group By**: Region, year, weapon type, attack type, terrorist group
-- **Filters**: Cleaned null values, filtered non-relevant entries
-- **Date-Based Trends**: Yearly attack patterns and peak period identification
-- **Joins**: Combined region and attack metadata to enrich visuals
+| Metric | Value |
+|---|---|
+| Total Records Analyzed | 96,000+ |
+| Time Period Covered | 1970 – 2017 (47 years) |
+| Peak Attack Year | 2017 |
+| Most Deadly Group | Taliban |
+| Most Used Weapon | Explosives |
+| Highest Risk Region | South Asia |
+| Most Targeted Group | Civilians and Government Entities |
+| Highest Success Rate Methods | Bombings and Armed Assaults |
 
 ---
 
-##  Challenges Faced
+##  Key Findings
 
-- **Data Imbalance**: High attack frequency in certain countries skewed results; addressed through normalization techniques.
-- **Categorical Inconsistency**: Inconsistent naming for weapon types and attack types; solved by standardizing category labels.
-- **Missing Coordinates**: Incomplete location data impacted map visuals; only complete entries were used for accuracy.
-- **Data Volume**: Over 96,000 records required efficient query optimization and aggregation strategies to maintain performance.
+### Most Deadly Groups
+- **Taliban** identified as the most deadly group based on attack count and success rate
+- **ISIS** and **Boko Haram** also show consistently high success rates
+- Group profiling reveals distinct geographic footprints and preferred attack methods
+
+### Attack Trends Over Time
+- **2017 recorded the highest number** of global terrorist attacks in the dataset
+- Post-2010 shows a sharp escalation in attack frequency globally
+- Historical trend modeling can predict future hotspots based on regional escalation patterns
+
+### Weapon and Attack Methods
+- **Explosives** are the most commonly used weapon — preferred for high-impact, high-casualty attacks
+- **Bombings and armed assaults** have the highest success rates across all regions
+- Weapon preference varies significantly by group and geographic region
+
+### Regional Impact
+- **South Asia** experiences the most frequent and successful attacks globally
+- **Middle East and North Africa** ranks second in attack frequency and severity
+- High attack concentration in specific countries creates data imbalance requiring normalization
+
+### Target Types
+- **Civilians** are the most frequently targeted group across all regions and time periods
+- **Government entities, police, and military** are also consistently high-priority targets
+- Transportation and infrastructure attacks show increasing trend post-2010
 
 ---
 
-##  Conclusion
+##  Policy Recommendations
 
-The **Global Terrorism Analysis Dashboard** serves as a strategic tool for understanding four decades of terrorism patterns. By combining robust SQL querying with dynamic Power BI visualizations, this project transforms static historical data into actionable intelligence. It not only provides a snapshot of global terrorism but also supports smarter, data-driven decisions in the fight against violent extremism.
+| Area | Recommendation |
+|---|---|
+| South Asia | Allocate more intelligence and prevention resources to the most affected region |
+| Explosive Detection | Invest in advanced detection systems at high-risk civilian and government sites |
+| Civic Protection | Reinforce security around civilians, police, and government officials |
+| Predictive Modeling | Use post-2010 trend data to identify and prepare for emerging hotspots |
+| Group Profiling | Develop detailed operational profiles for Taliban, ISIS, and Boko Haram |
+| Resource Allocation | Redirect security budgets based on regional attack frequency and severity data |
 
+---
 
+##  Technical Approach
 
+### SQL Server
+- **Aggregations** — Count of attacks, average success rates, and total casualties by group and region
+- **GROUP BY** — Regional, yearly, weapon-type, attack-type, and group-level breakdowns
+- **JOINs** — Combined region metadata with attack records for enriched analysis
+- **Date-Based Trend Analysis** — Yearly attack pattern identification and peak period detection
+- **Data Cleaning** — Null value removal, categorical standardization, coordinate validation
+- **Query Optimization** — Efficient handling of 96,000+ records with aggregation strategies
 
+### Power BI
+- **Interactive dashboard** with filters by region, year, group, weapon type, and target category
+- **Map visual** for geographic attack distribution and regional hotspot identification
+- **Time-series charts** for 47-year trend analysis and YoY comparison
+- **Bar and donut charts** for group-wise, weapon-wise, and target-wise breakdowns
+- **DAX measures** for success rate calculations, attack density, and YoY growth metrics
 
+### Excel
+- Initial data profiling and quality review
+- Category standardization for weapon types and attack methods
+
+---
+
+##  Challenges Faced & Solutions
+
+| Challenge | Solution |
+|---|---|
+| Data Imbalance — High attack frequency in certain countries skewed results | Applied normalization techniques for balanced regional comparison |
+| Categorical Inconsistency — Weapon and attack type naming varied across records | Standardized all category labels through SQL CASE statements |
+| Missing Coordinates — Incomplete location data impacted map visuals | Used only complete coordinate entries for geographic accuracy |
+| Data Volume — 96,000+ records caused performance issues | Applied efficient aggregation strategies and query optimization |
+
+---
+
+##  Project Impact
+
+This analysis can directly support:
+
+- ✅ **Data-driven counterterrorism strategies** at national and international levels
+- ✅ **Policy formulation** for security resource allocation in high-risk regions
+- ✅ **Predictive modeling** frameworks to anticipate future threats
+- ✅ **Journalism and research** — providing structured insight into global terrorism dynamics
+- ✅ **Public safety planning** for civilian and infrastructure protection
+
+---
+
+## 📁 Repository Structure
